@@ -1,4 +1,4 @@
-
+body{background-color: rgb(214, 214, 241);}
 .common{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
@@ -18,7 +18,7 @@
     z-index: 1;
 }
 nav{
-    background-color: rgb(214, 214, 241);;
+    background-color: white;;
     padding: 0px;
     overflow:hidden;
     position: fixed;
@@ -37,13 +37,12 @@ nav a{
     font-weight: bold;
 }
 nav a:hover{
-    background-color:white
+    background-color:rgb(214, 214, 241);
 }
 .mainbody{
-    background-color:  white;
     color:black;
     position: absolute;
-    top: 150px;
+    top: 0px;
     right: 0px;
     left: 0px;
     bottom: 100px;
